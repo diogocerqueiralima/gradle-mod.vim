@@ -1,4 +1,6 @@
-function setup()
+local M = {}
+
+function M.setup()
 
     print("Setting up gradle_mod...")
 
@@ -10,6 +12,4 @@ function setup()
 
 end
 
-setup()
-
-return {}
+return M
