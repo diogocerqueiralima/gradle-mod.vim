@@ -1,4 +1,4 @@
-local finder = require("finder")
+local finder = require("gradle_mod.finder")
 
 local M = {}
 
