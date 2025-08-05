@@ -10,4 +10,4 @@ end
 
 setup()
 
-return M
+return {}
