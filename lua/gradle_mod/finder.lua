@@ -3,8 +3,7 @@ local uv = vim.loop
 
 function M.find_settings_gradle()
 
-    local path = uv.fs_realpath(vim.fn.getcwd())
-
+    local path = vim.fn.getcwd()
     if not path then
         return nil
     end
